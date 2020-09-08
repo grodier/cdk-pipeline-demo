@@ -10,3 +10,5 @@ new CdkpipelinesDemoPipelineStack(app, 'CdkpipelinesDemoPipelineStack', {
     region: 'us-east-2',
   },
 });
+
+app.synth();
